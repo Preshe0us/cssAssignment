@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html,body{
+    scroll-behavior: smooth;
+}
+
 .anime{
     display: flex;
     justify-content: center;
@@ -100,6 +104,12 @@ font-size: 25px
     text-align: center;
     margin: 80px;
     width: 250px;  
+}
+.divider{
+    background: rgb(241, 241, 241);
+    width: 2px;
+    height: 450px;
+    margin: 20px 0;
 }
 
 .text1{
