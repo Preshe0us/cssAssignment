@@ -1,0 +1,283 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.anime{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.home{
+font-family: fantasy;
+font-weight: bold;
+padding-top: 80px;
+margin-left: 70px;
+font-size: 25px
+}
+
+
+.image{
+   width: 10px;
+   height: 10px;
+   padding-left: 500px;
+}
+
+.hero-text{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 500px;
+}
+
+.subheader{
+    padding-top: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.journey{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.h1{
+    font-size: 30;
+    padding-bottom: 16px;
+}
+
+.navigation{
+    background: bisque;
+    height: 80px;
+    width: 100%;  
+}
+
+.about{
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+
+.container{
+    width: 100%;
+    margin-top: 40px;
+    height: 500px;
+    background: rgb(240, 212, 178);
+}
+
+.H2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 16px;
+    
+}
+
+.card{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    width: 800px;
+    height: 500px;
+    box-shadow: 5px 10px 20px #ececec;
+    
+}
+
+.content1{
+    text-align: center;
+    margin: 80px;
+    width: 250px;  
+}
+
+.text1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.textsmall{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+
+.text2{
+    font-size: 20px;
+    color: peru;
+    font-weight: lighter;
+    font-weight: normal;
+    padding-bottom: 12px;
+}
+
+.content2{
+    text-align: center;
+    margin: 80px;
+    width: 250px;  
+}
+
+.text1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.textsmall{
+    font-size: 18px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+
+.text2{
+    font-size: 20px;
+    color: peru;
+    font-weight: lighter;
+    font-weight: normal;
+    padding-bottom: 12px;
+}
+
+
+.H3{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+
+.portfolio{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.portfolio img{
+    width: 400px;
+    height: 400px;
+}
+
+.visuals{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.visuals div{
+    margin: 0 10px;
+}
+
+.contactpage{
+    
+       
+       width: 600px; 
+       margin: 100px auto 0;
+       text-align: center;
+}
+
+.contactpage input,
+.contactpage textarea{
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+
+}
+
+textarea{
+    height: 150px;
+}
+
+
+.btn{
+    border-radius: 10px;
+    color: #000;
+    margin-top: 12px;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+    
+nav ul{
+    float: right;
+    margin-right: 70px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: black;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 13px;
+    text-transform: uppercase;
+}
+.active,a:hover{
+    background: blanchedalmond;
+    transition: .5s;
+}
+.checkbtn{
+    color: brown;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    label.home{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+nav ul li a{
+    font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rosybrown;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background-image: none;
+        color: blanchedalmond;
+    }
+    #check:checked ~ul{
+        left: 0px;
+    }
+}
+h1{
+    font-size: 60px;
+}
